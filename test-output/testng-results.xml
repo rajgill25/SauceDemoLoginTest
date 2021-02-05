@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-05T04:27:47Z" name="Default suite" finished-at="2021-02-05T04:28:15Z" duration-ms="27520">
+    <groups>
+    </groups>
+    <test started-at="2021-02-05T04:27:47Z" name="Default test" finished-at="2021-02-05T04:28:15Z" duration-ms="27520">
+      <class name="testcases.LoginPageTestCases">
+        <test-method is-config="true" signature="DriverInitialisation()[pri:0, instance:testcases.LoginPageTestCases@1e1a0406]" started-at="2021-02-05T04:27:47Z" name="DriverInitialisation" finished-at="2021-02-05T04:27:51Z" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverInitialisation -->
+        <test-method signature="LoginWithEmptyUsernameAndPassword()[pri:1, instance:testcases.LoginPageTestCases@1e1a0406]" started-at="2021-02-05T04:27:51Z" name="LoginWithEmptyUsernameAndPassword" finished-at="2021-02-05T04:27:52Z" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmptyUsernameAndPassword -->
+        <test-method signature="LoginWithValidCredentials(java.lang.String, java.lang.String)[pri:2, instance:testcases.LoginPageTestCases@1e1a0406]" started-at="2021-02-05T04:27:52Z" name="LoginWithValidCredentials" data-provider="ValidUserData" finished-at="2021-02-05T04:27:54Z" duration-ms="2143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method signature="LoginWithValidCredentials(java.lang.String, java.lang.String)[pri:2, instance:testcases.LoginPageTestCases@1e1a0406]" started-at="2021-02-05T04:27:54Z" name="LoginWithValidCredentials" data-provider="ValidUserData" finished-at="2021-02-05T04:27:57Z" duration-ms="3551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method signature="LoginWithValidCredentials(java.lang.String, java.lang.String)[pri:2, instance:testcases.LoginPageTestCases@1e1a0406]" started-at="2021-02-05T04:27:57Z" name="LoginWithValidCredentials" data-provider="ValidUserData" finished-at="2021-02-05T04:28:03Z" duration-ms="5803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method signature="LoginWithLockedOutUser()[pri:3, instance:testcases.LoginPageTestCases@1e1a0406]" started-at="2021-02-05T04:28:03Z" name="LoginWithLockedOutUser" finished-at="2021-02-05T04:28:03Z" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithLockedOutUser -->
+        <test-method signature="LoginWithInvalidCredentials()[pri:4, instance:testcases.LoginPageTestCases@1e1a0406]" started-at="2021-02-05T04:28:03Z" name="LoginWithInvalidCredentials" finished-at="2021-02-05T04:28:04Z" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTestCases@1e1a0406]" started-at="2021-02-05T04:28:04Z" name="tearDown" finished-at="2021-02-05T04:28:15Z" duration-ms="11039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginPageTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
